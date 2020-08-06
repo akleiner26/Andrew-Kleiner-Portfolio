@@ -2,3 +2,6 @@
   font-family:'Dosis', sans-serif;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: #d4d4d4;
+}
