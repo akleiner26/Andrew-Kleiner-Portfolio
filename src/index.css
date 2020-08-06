@@ -5,3 +5,8 @@
 a:link, a:visited, a:hover, a:active {
   color: #d4d4d4;
 }
+
+body{
+  background-image: url("/public/images/wrapper/background.jpg");
+  background-size: cover;
+}
