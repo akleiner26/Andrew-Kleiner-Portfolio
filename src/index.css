@@ -9,4 +9,5 @@ a:link, a:visited, a:hover, a:active {
 body{
   background-image: url("/public/images/wrapper/background.jpg");
   background-size: cover;
+  overflow: scroll;
 }
