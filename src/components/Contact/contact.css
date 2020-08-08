@@ -1,0 +1,20 @@
+.container {
+    max-width: 60%;
+    min-width: 50%;
+    margin:auto;
+}
+
+.formHeader {
+    border-bottom: #d4d4d4;
+    border-bottom-style: double;
+}
+
+form {
+    background-color: #3b3b3b;
+    color: #d4d4d4;
+    padding: 15px;
+    display: block;
+    margin:auto;
+    display:block;
+    margin-bottom: 8rem;
+}
