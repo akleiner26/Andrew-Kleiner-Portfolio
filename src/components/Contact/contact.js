@@ -1,6 +1,10 @@
 import React from "react"
 import {
-    Form
+    Form,
+    FormGroup,
+    Label,
+    Input,
+    Button
 } from "reactstrap"
 import "./contact.css"
 
@@ -8,28 +12,23 @@ import "./contact.css"
 function Contact() {
     return (
         <section className="row">
-            <main className="container mt-5">
-                <Form className="sm-col-12 mt-1" noValidate>
-                    <h1 className="formHeader">Contact</h1>
-                    <Form.Group md="6" controlId="validationFormik03">
-                        <Form.Control
-                            type="text"
-                            name="name"
-                        />
-                    </Form.Group>
-                    <Form.Group  md="6" controlId="validationFormik03">
-                        <Form.Control
-                            type="text"
-                            name="email"
-                        />
-                    </Form.Group>
-                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" rows="3" />
-                    </Form.Group>
+                <Form className="form xs-col-12 mt-1">
+                <h1 class="formHeader">Contact</h1>
+                    <FormGroup>
+                        <Label for="exampleEmail">Name</Label>
+                        <Input type="text" name="name" id="formName" placeholder="Your Name" />
+                    </FormGroup>
+                    <FormGroup>
+                        <Label for="exampleEmail">Email</Label>
+                        <Input type="email" name="email" id="formEmail" placeholder="name@example.com" />
+                    </FormGroup>
+                    <FormGroup>
+                        <Label for="exampleText">Message</Label>
+                        <Input type="textarea" name="text" id="formText" />
+                    </FormGroup>
+                    <Button color="primary" size="sm">Submit</Button>
                 </Form>
-            </main>
-        </section>
+        </section >
     )
 }
 

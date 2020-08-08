@@ -18,3 +18,14 @@ form {
     display:block;
     margin-bottom: 8rem;
 }
+
+.form{
+    max-width: 360px;
+    min-width: 350px;
+}
+
+@media(max-width:575px) {
+    .form {
+        width: 100vw;
+    }
+}
