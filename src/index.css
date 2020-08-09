@@ -1,6 +1,3 @@
-* {
-  font-family: 'Cinzel', serif;
-}
 
 a:link, a:visited, a:hover, a:active {
   color: #d4d4d4;
@@ -10,4 +7,5 @@ body{
   background-image: url("/public/images/wrapper/background.jpg");
   background-size: cover;
   overflow: scroll;
+  font-family: 'Roboto Slab', serif;
 }

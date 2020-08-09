@@ -1,0 +1,28 @@
+.cardImg{
+    text-align: center;
+    justify-content: middle;
+    max-width: 318px;
+    max-height: 175px;
+    margin: auto;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.card{
+    max-width: 350px;
+    max-height: 450px;
+    margin: 20px
+}
+
+.button {
+    margin: 5px;
+    width: 45%;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+}
+
+.cardFooter {
+    border-top: none !important;
+    background-color: white !important;
+}
