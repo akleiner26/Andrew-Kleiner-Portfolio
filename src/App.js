@@ -6,6 +6,7 @@ import Footer from "./components/Footer/footer"
 import Wrapper from "./components/Wrapper/wrapper"
 import Home from "./components/Home/home"
 import Contact from "./components/Contact/contact"
+import projectsJSON from "./projects.json"
 
 
 

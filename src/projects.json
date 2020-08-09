@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Abacus",
+        "repo": "https://github.com/akleiner26/Abacus",
+        "link": "https://a-bacus-app.herokuapp.com/",
+        "image": "images/abacus.png",
+        "description": "Abacus is an online portal for teachers to manage their assignments, students, and grades, all in one virtual location."
+    },
+    {
+        "id": 2,
+        "name": "BookNook",
+        "repo": "https://github.com/akleiner26/Book-Nook",
+        "link": "https://akleiner26.github.io/Book-Nook/",
+        "image": "images/bookNook.png",
+        "description": "BookNook allows you to enter movies you enjoy, and based upon your entry, suggests a book for you to read."
+    },
+    {
+        "id": 3,
+        "name": "Batman Villain Database",
+        "repo": "https://github.com/akleiner26/Villain-Directory",
+        "link": "https://akleiner26.github.io/Villain-Directory/",
+        "image": "images/villainDB.png",
+        "description": "Using ReactJS, the Villain Database lets the user sort and search through Batman's best known villains."
+    },
+    {
+        "id": 4,
+        "name": "Krabby Burger",
+        "repo": "https://github.com/akleiner26/Burgers",
+        "link": "https://afternoon-oasis-22216.herokuapp.com/",
+        "image": "images/krabbyBurger.png",
+        "description": "Using online databasing, create your own Krabby Patty and eat it!"
+    },
+    {
+        "id": 5,
+        "name": "Weather App",
+        "repo": "https://github.com/akleiner26/Weather-Dashboard",
+        "link": "https://akleiner26.github.io/Weather-Dashboard/",
+        "image": "images/weather.png",
+        "description": "Utilizing local storage, The Weather App allows you to look up local five day forecasts anywhere across the globe."
+    },
+    {
+        "id": 6,
+        "name": "Workday Scheduler",
+        "repo": "https://github.com/akleiner26/Work-Day-Scheduler",
+        "link": "https://akleiner26.github.io/Work-Day-Scheduler/",
+        "image": "images/schedule.png",
+        "description": "Focusing on the use of JavaScript, and scope, the Workday Scheduler allows the user to track their daily tasks."
+    }
+]
