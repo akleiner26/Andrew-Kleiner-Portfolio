@@ -12,8 +12,8 @@ function Home () {
                 </section>
                 <section className="col-md-8">
                     <section className="col-sm-12 align-middle card-body mainBio">
-                        <h5 className="card-title bio">About Me</h5>
-                        <p className="card-text bio"> Andrew Kleiner is a professional lighting designer and web developer
+                        <h5 className="homeCard-title bio textShadowLight">About Me</h5>
+                        <p className="homeCard-text bio"> Andrew Kleiner is a professional lighting designer and web developer
                             living in the
                             greater
                             Philadelphia area. With almost a decade of experience, he has worked for bands

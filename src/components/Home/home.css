@@ -1,24 +1,28 @@
 .aboutMe {
     padding-right: 10px;
     overflow: scroll;
-}
-
-.aboutCard{
-    margin-top: 40px;
-    overflow: scroll;
     margin-bottom: 100px;
 }
 
+.aboutCard{
+    margin-left: 5px;
+    margin-top: 40px;
+    overflow: scroll;
+    margin-bottom: 100px;
+    min-width: 350px !important;
+}
+
 .bioPic {
-    margin-top: 5px;
+    margin-top: 45px;
     max-width: 239px !important;
     max-height: 200px;
     width:100%;
     margin-left: 15px;
+    margin-right: 5px;
     height:100%;
     min-width: 269px;
-    padding-top:35px;
-    padding-bottom: 10px;
+    padding:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .mainBio{
@@ -31,4 +35,12 @@
     margin-top: 15px;
     display: flex;
     overflow: scroll;
+}
+
+.homeCard-text{
+    margin-left: 45px;
+}
+
+.homeCard-title{
+    margin-left: 45px;
 }

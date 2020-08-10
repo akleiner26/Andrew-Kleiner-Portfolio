@@ -1,4 +1,4 @@
-.cardImg{
+.portCardImg{
     text-align: center;
     justify-content: middle;
     max-width: 318px;
@@ -6,12 +6,18 @@
     margin: auto;
     width: 50%;
     margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
-.card{
+.portCard{
     max-width: 350px;
     max-height: 450px;
-    margin: 20px
+    min-width: 320px;
+    margin: 20px;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0,0,0,0.19);
+    min-height: 455px;
+    margin-left: 65px;
 }
 
 .button {
@@ -20,9 +26,24 @@
     position: relative;
     bottom: 0px;
     display: flex;
+    min-width: 120px;
+    max-height: 45px;
+    padding: 4px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .cardFooter {
     border-top: none !important;
     background-color: white !important;
+}
+
+.portCardText{
+    overflow: scroll;
+}
+
+
+@media screen and (min-width: 767) {
+    .portCard{
+    margin-left: 300px;
+    }
 }

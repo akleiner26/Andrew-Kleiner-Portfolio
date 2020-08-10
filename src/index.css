@@ -9,3 +9,11 @@ body{
   overflow: scroll;
   font-family: 'Roboto Slab', serif;
 }
+
+.textShadow{
+text-shadow: 2px 2px #000000;
+}
+
+.textShadowLight{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}

@@ -6,6 +6,7 @@ footer {
     padding-bottom: 95px;
     margin-top: 3rem;
     font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px #000000;
 }
 
 .footerText {
@@ -17,6 +18,7 @@ footer {
     width: 30px;
     justify-self: right;
     margin-left: 10px;
+
 }
 
 .credit {

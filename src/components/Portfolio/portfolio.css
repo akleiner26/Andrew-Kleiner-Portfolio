@@ -1,3 +1,12 @@
 .portBody{
-    margin-bottom: 50px;
+    width: 100vw;
+    margin-bottom: 100px;
 }
+
+.cardRow{
+    justify-content:center;
+    margin:auto;
+    width:100%;
+    text-align: center;
+}
+

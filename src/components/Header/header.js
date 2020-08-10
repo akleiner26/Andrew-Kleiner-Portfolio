@@ -11,7 +11,7 @@ function Header () {
     return (
     <header>
         <Navbar>
-            <h3 className="name">Andrew Kleiner</h3>
+            <h3 className="name textShadow">Andrew Kleiner</h3>
             <Nav className="nav justify-content-end">
                 <NavItem className="nav-item">
                     <NavLink className="nav-link navButton" href="/">About</NavLink>
