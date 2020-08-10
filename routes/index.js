@@ -1,7 +1,7 @@
 const router = require("express").Router();
 var nodemailer = require('nodemailer');
 require ("dotenv").config()
-
+n
 router.route("/api/submit")
     .post(function (req,res) {
  
@@ -17,15 +17,17 @@ var transporter = nodemailer.createTransport({
 var mailOptions = {
   from: req.body.email,
   to: "andrewjkleiner@gmail.com",
-  subject: 'AN EMAIL FROM YOUR WEBSITE',
+  subject: 'AN EMAIL FROM YOUR WEBSITE FROM: ' + req.body.name,
   text: req.body.text
 };
 
 transporter.sendMail(mailOptions, function(error, info){
   if (error) {
     console.log(error);
+    res.send(error);
   } else {
-    console.log('Email sent: ' + info.res);
+    console.log('Email sent: ' + info);
+    res.send(info);
   }
 });
     })

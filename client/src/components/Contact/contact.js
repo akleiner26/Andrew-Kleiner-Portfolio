@@ -7,7 +7,6 @@ import {
     Button
 } from "reactstrap"
 import "./contact.css"
-// import { post } from "../../../../routes"
 import axios from "axios"
 
 

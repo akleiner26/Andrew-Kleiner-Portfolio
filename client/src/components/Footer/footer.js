@@ -10,14 +10,14 @@ function Footer() {
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a target="_blank" href="https://github.com/akleiner26">
-                <img className="footerImg text-center" src="images/footer/github.png" alt="link to Andrew Kleiner's GitHub"/>
+            <i class="fa fa-github-square" aria-hidden="true"></i>
             </a>
-            <h6 className="footerText mt-2 mb-1">Email:   
-                <a target="_blank" href="mailto:AndrewJKleiner@gmail.com">  AndrewJKleiner@gmail.com</a>
-            </h6>
-            <h6 className="footerText credit">Background Art by:  
-                <a target="_blank" href="https://matthewgreerdesign.squarespace.com/">  Matthew Greer</a>
-            </h6>
+            <a target="_blank" href="mailto:AndrewJKleiner@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a> 
+                <a target="_blank" href="https://matthewgreerdesign.squarespace.com/">
+                <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                </a>
         </footer>
 
     )
