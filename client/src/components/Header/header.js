@@ -20,7 +20,7 @@ function Header () {
                     <NavLink className="nav-link navButton" href="/portfolio">Portfolio</NavLink>
                 </NavItem>
                 <NavItem className="nav-item">
-                    <NavLink className="nav-link navButton" target="_blank" href="assets/images/Andrew Kleiner Resume 2020 Code.pdf">Resume</NavLink>
+                    <NavLink className="nav-link navButton" target="_blank" href="images/resume.pdf">Resume</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink className="nav-link navButton" href="/contact">Contact</NavLink>
