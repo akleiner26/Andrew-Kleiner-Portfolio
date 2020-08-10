@@ -5,8 +5,7 @@ import projects from "../../projects.json"
 
 function Portfolio(props) {
     return (
-        <section className="portBody">
-            <section className="row cardRow">
+            <>
             {projects.map(project => <ProjectCard
                 key={project.id}
                 name={project.name}
@@ -15,8 +14,7 @@ function Portfolio(props) {
                 repo={project.repo}
                 link={project.link} />
             )}
-            </section>
-            </section>
+            </>
     )
 }
 

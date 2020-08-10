@@ -6,10 +6,9 @@ import {
 
 function ProjectCard(props) {
     return ( 
-    <div className="col-sm-12 col-md-6">
-      <Card className="portCard d-flex flex-column">
+      <Card className="portCard d-flex m-1 flex-column">
         <CardImg className="portCardImg" top width="100%" src={props.image} alt={props.name} />
-        <CardBody>
+        <CardBody className="portCardText">
           <CardTitle><strong className="textShadowLight">{props.name}</strong></CardTitle>
           <CardText className="portCardText">{props.description}</CardText>
         </CardBody>
@@ -18,7 +17,6 @@ function ProjectCard(props) {
           <a className="mt-auto" href={props.link}><Button className="button mt-auto">Launched Site</Button></a>
         </CardFooter>
       </Card>
-    </div>
     )
 }
 

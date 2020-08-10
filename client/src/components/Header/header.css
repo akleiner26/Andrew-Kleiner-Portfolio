@@ -2,7 +2,7 @@ header{
     background-color: #3b3b3b;
     color: #d4d4d4 !important;
     width: 100%;
-    font-family: 'Cinzel', serif !important;
+    font-family: 'Cinzel', serif;
 }
 
 .nav-link {

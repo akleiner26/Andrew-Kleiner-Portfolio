@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer className="mt-auto fixed-bottom">
             <a target="_blank" href="https://www.linkedin.com/in/andrew-kleiner-0334b994">
-                <img className="footerImg text-center" src="images/footer/linkdin.png" alt="Link to Andrew Kleiner's Linkdin" />
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             <a target="_blank" href="https://github.com/akleiner26">
                 <img className="footerImg text-center" src="images/footer/github.png" alt="link to Andrew Kleiner's GitHub"/>

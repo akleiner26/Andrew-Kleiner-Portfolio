@@ -8,7 +8,7 @@ function Home () {
             <section className="row no-gutters aboutMe">
                 <section className="col-sm-12 col-md-4">
                     <img className="img-fluid bioPic align-middle col-sm-2 img-fluid height: auto d-block mx-auto"
-                        src="images/home/Andrew Kleiner.JPG" alt="Andrew Kleiner"/>
+                        src="images/home/headShot.JPG" alt="Andrew Kleiner"/>
                 </section>
                 <section className="col-md-8">
                     <section className="col-sm-12 align-middle card-body mainBio">

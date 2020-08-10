@@ -11,13 +11,14 @@
 }
 
 .portCard{
-    max-width: 350px;
+    /* max-width: 350px; */
     max-height: 450px;
-    min-width: 320px;
-    margin: 20px;
+    max-width: 400px;
+    margin: 40px;
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 26px 0 rgba(0,0,0,0.19);
-    min-height: 455px;
-    margin-left: 65px;
+    min-height: 450px;
+    min-width: 352px !important;
+    /* margin-left: 65px; */
 }
 
 .button {
@@ -38,7 +39,7 @@
 }
 
 .portCardText{
-    overflow: scroll;
+    overflow: scroll !important;
 }
 
 

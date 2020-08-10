@@ -4,9 +4,8 @@
 }
 
 .cardRow{
-    justify-content:center;
+    justify-content:space-between;
     margin:auto;
     width:100%;
     text-align: center;
 }
-
