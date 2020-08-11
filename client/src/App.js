@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, Switch} from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import './App.css';
 import Header from "./components/Header/header"
@@ -17,10 +17,12 @@ function App() {
     <Router>
       <Header />
       <Wrapper>
+        <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio}/>
+        </Switch>
       </Wrapper>
       <Footer />
     </Router>
