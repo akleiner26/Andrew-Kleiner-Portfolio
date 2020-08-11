@@ -5,8 +5,7 @@
 }
 
 .aboutCard{
-    margin-left: 5px;
-    margin-top: 40px;
+    margin:auto;
     overflow: scroll;
     margin-bottom: 100px;
     min-width: 350px !important;
