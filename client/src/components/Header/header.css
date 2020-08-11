@@ -9,3 +9,6 @@ header{
     color: #d4d4d4 !important;
 }
 
+.nav-link:hover{
+    font-weight: bold;
+}
