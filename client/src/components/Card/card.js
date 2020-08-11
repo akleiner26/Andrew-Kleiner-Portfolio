@@ -13,8 +13,8 @@ function ProjectCard(props) {
           <CardText className="portCardText">{props.description}</CardText>
         </CardBody>
         <CardFooter className="cardFooter">
-        <a className="mt-auto" href={props.repo}><Button className="button mt-auto">Github Repo</Button></a>
-          <a className="mt-auto" href={props.link}><Button className="button mt-auto">Launched Site</Button></a>
+        <a className="mt-auto" target="_blank" href={props.repo}><Button className="button mt-auto">Github Repo</Button></a>
+          <a className="mt-auto" target="_blank" href={props.link}><Button className="button mt-auto">Launched Site</Button></a>
         </CardFooter>
       </Card>
     )
