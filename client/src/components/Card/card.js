@@ -6,7 +6,7 @@ import {
 
 function ProjectCard(props) {
     return ( 
-      <Card className="portCard d-flex m-1 flex-column">
+      <Card className="portCard d-flex mt-2 flex-column">
         <CardImg className="portCardImg" top width="100%" src={props.image} alt={props.name} />
         <CardBody className="portCardText">
           <CardTitle><strong className="textShadowLight">{props.name}</strong></CardTitle>

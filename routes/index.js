@@ -1,7 +1,6 @@
 const router = require("express").Router();
 var nodemailer = require('nodemailer');
 require ("dotenv").config()
-n
 router.route("/api/submit")
     .post(function (req,res) {
  
@@ -18,7 +17,7 @@ var mailOptions = {
   from: req.body.email,
   to: "andrewjkleiner@gmail.com",
   subject: 'AN EMAIL FROM YOUR WEBSITE FROM: ' + req.body.name,
-  text: req.body.text
+  text: req.body.text + req.body.email
 };
 
 transporter.sendMail(mailOptions, function(error, info){
