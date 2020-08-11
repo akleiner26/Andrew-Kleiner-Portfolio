@@ -1,5 +1,5 @@
-import React, {useState, Switch} from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import React, {useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import './App.css';
 import Header from "./components/Header/header"
 import Footer from "./components/Footer/footer"
