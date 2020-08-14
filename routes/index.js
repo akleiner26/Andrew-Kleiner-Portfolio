@@ -1,4 +1,4 @@
-const router = require("express").Router();
+// const router = require("express").Router();
 var nodemailer = require('nodemailer');
 require ("dotenv").config()
 router.route("/api/submit")
