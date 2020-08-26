@@ -1,5 +1,5 @@
-header{
-    background-color: #3b3b3b;
+.header{
+    background-color: #3b3b3b !important;
     color: #d4d4d4 !important;
     width: 100%;
     font-family: 'Cinzel', serif;
@@ -11,4 +11,13 @@ header{
 
 .nav-link:hover{
     font-weight: bold;
+}
+
+.burger{
+    z-index: 6000;
+    color: #d4d4d4 !important;
+}
+
+.name {
+    color: #d4d4d4 !important;
 }

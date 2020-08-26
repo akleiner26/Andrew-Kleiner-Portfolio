@@ -1,5 +1,13 @@
 [
     {
+        "id": 6,
+        "name": "TeachPod",
+        "repo": "https://github.com/akleiner26/TeacherPod",
+        "link": "https://teachpod.herokuapp.com/",
+        "image": "images/projects/teachPod.png",
+        "description": "TeachPod is an online portal for teachers and parents to find and organize virtual classrooms to ensure safety amidst the pandemic."
+    },
+    {
         "id": 1,
         "name": "Abacus",
         "repo": "https://github.com/akleiner26/Abacus",
@@ -38,13 +46,5 @@
         "link": "https://akleiner26.github.io/Weather-Dashboard/",
         "image": "images/projects/weather.png",
         "description": "Utilizing local storage, The Weather App allows you to look up local five day forecasts anywhere across the globe."
-    },
-    {
-        "id": 6,
-        "name": "Workday Scheduler",
-        "repo": "https://github.com/akleiner26/Work-Day-Scheduler",
-        "link": "https://akleiner26.github.io/Work-Day-Scheduler/",
-        "image": "images/projects/schedule.png",
-        "description": "Focusing on the use of JavaScript, and scope, the Workday Scheduler allows the user to track their daily tasks."
     }
 ]
