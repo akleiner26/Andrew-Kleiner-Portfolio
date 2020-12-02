@@ -4,7 +4,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 body{
-  overflow: scroll;
+  /* overflow: scroll; */
   font-family: 'Roboto Slab', serif;
 }
 

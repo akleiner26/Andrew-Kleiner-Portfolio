@@ -6,7 +6,7 @@
 
 .aboutCard{
     margin:auto;
-    overflow: scroll;
+    /* overflow: scroll; */
     margin-bottom: 100px;
     min-width: 350px !important;
 }
@@ -33,7 +33,7 @@
     margin-left: 15px;
     margin-top: 15px;
     display: flex;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .homeCard-text{
